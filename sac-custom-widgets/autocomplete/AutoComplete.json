@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-autocomplete1",
-			"url": "https://reusetransparencyemail-eacpv.dispatcher.hana.ondemand.com/webcomponent.js",
+			"url": "https://ryangerrard.github.io/sac-custom-widgets/autocomplete/webcomponent.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
