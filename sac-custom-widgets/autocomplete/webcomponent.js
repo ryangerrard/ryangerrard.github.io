@@ -21,6 +21,7 @@
             .autocomplete {
                 position: relative;
                 display: inline-block;
+                overflow: scroll;
             }
 
             input {
@@ -50,7 +51,6 @@
                 cursor: pointer;
                 background-color: #fff;
                 border-top: none;
-                overflow: scroll;
             }
 
             .autocomplete-items div:hover {
