@@ -21,7 +21,6 @@
             .autocomplete {
                 position: relative;
                 display: inline-block;
-                overflow: scroll;
             }
 
             input {
@@ -68,6 +67,7 @@
             .autocomplete-active {
                 background-color: rgb(240, 240, 240) !important;
                 outline: rgb(0, 0, 0) dotted 1px;
+                overflow: scroll;
             }
 
 
