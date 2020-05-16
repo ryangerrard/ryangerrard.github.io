@@ -105,6 +105,7 @@
                 border-width: 1px;
                 border-style: solid;
                 border-color: #427cac!important;
+                overflow:scroll;
             }
 
             .decisionIncInputField:focus:not(.decisionIncInputField-designTime):not(.decisionIncInputFieldDisabled):not(.decisionIncInputFieldUneditable) {
@@ -123,7 +124,6 @@
                 top: 0;
                 left: 0;
                 box-sizing: border-box;
-                overflow: scroll;
             }
 
             * {
@@ -199,6 +199,8 @@
                 border-width: 1px;
                 border-style: solid;
                 border-color: #427cac!important;
+                overflow:scroll;
+                
             }
 
             .decisionIncInputField:focus:not(.decisionIncInputField-designTime):not(.decisionIncInputFieldDisabled):not(.decisionIncInputFieldUneditable) {
