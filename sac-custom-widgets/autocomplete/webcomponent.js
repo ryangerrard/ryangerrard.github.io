@@ -21,6 +21,7 @@
             .autocomplete {
                 position: relative;
                 display: inline-block;
+                overflow: scroll;
             }
 
             input {
