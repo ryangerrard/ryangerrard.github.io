@@ -67,7 +67,6 @@
             .autocomplete-active {
                 background-color: rgb(240, 240, 240) !important;
                 outline: rgb(0, 0, 0) dotted 1px;
-                overflow: scroll;
             }
 
 
@@ -124,6 +123,7 @@
                 top: 0;
                 left: 0;
                 box-sizing: border-box;
+                overflow: scroll;
             }
 
             * {
