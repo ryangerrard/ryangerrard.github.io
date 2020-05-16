@@ -110,6 +110,7 @@
             .decisionIncInputField:focus:not(.decisionIncInputField-designTime):not(.decisionIncInputFieldDisabled):not(.decisionIncInputFieldUneditable) {
                 outline: 1px dotted #000;
                 outline-offset: -3px;
+                overflow: scroll;
             }
 
             .decisionIncInputField::-ms-clear {
@@ -123,7 +124,6 @@
                 top: 0;
                 left: 0;
                 box-sizing: border-box;
-                overflow: scroll;
             }
 
             * {
@@ -205,6 +205,7 @@
             .decisionIncInputField:focus:not(.decisionIncInputField-designTime):not(.decisionIncInputFieldDisabled):not(.decisionIncInputFieldUneditable) {
                 outline: 1px dotted #000;
                 outline-offset: -3px;
+                overflow: scroll;
             }
 
             .decisionIncInputField::-ms-clear {
