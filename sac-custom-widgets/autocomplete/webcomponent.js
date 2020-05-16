@@ -16,12 +16,12 @@
                     
             * {
                 box-sizing: border-box;
+                overflow: scroll;
             }
 
             .autocomplete {
                 position: relative;
                 display: inline-block;
-                overflow: scroll;
             }
 
             input {
