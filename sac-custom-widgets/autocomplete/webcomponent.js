@@ -123,6 +123,15 @@
                 top: 0;
                 left: 0;
                 box-sizing: border-box;
+            }
+            
+            .decisionIncComponentWidgetPanel:focus{
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                box-sizing: border-box;
                 overflow-x: hidden;
                 overflow-y: scroll;
             }
