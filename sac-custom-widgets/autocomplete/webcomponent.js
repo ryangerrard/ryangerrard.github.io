@@ -207,7 +207,7 @@
                 outline-offset: -3px;
             }
 
-            .decisionIncInputField:focus .decisionIncComponentWidgetPanel{
+            .decisionIncInputField:focus +.decisionIncComponentWidgetPanel{
                 overflow-x: hidden;
                 overflow-y: scroll;
             }
