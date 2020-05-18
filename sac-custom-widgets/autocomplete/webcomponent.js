@@ -35,9 +35,6 @@
                 width: 100%;
             }
 
-            .autocomplete-list div{
-
-            }
 
             .autocomplete-items {
                 position: absolute;
@@ -46,7 +43,6 @@
                 z-index: 99;
                 left: 0;
                 right: 0;
-                
             }
 
             .autocomplete-items div {
@@ -134,6 +130,10 @@
                 box-sizing: border-box;
             }
 
+            .decisionIncComponentWidgetPanel {
+                overflow-x: hidden;
+                overflow-y: scroll;
+            }
             
             * {
                 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
