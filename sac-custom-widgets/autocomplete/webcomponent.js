@@ -130,7 +130,7 @@
                 box-sizing: border-box;
             }
 
-            .decisionIncComponentWidgetPanel:focus {
+            .decisionIncComponentWidgetPanel:focus-within {
                 overflow-x: hidden;
                 overflow-y: scroll;
             }
