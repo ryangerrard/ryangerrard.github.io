@@ -35,6 +35,11 @@
                 width: 100%;
             }
 
+            .autocomplete-list div{
+                overflow-x: hidden;
+                overflow-y: scroll;
+            }
+            
             .autocomplete-items {
                 position: absolute;
                 border: 1px solid rgb(191, 191, 191);
@@ -207,10 +212,7 @@
                 outline-offset: -3px;
             }
 
-            .decisionIncInputField:focus{
-                overflow-x: hidden;
-                overflow-y: scroll;
-            }
+
 
             .decisionIncInputField::-ms-clear {
                 display: none;
