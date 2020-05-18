@@ -36,10 +36,9 @@
             }
 
             .autocomplete-list div{
-                overflow-x: hidden;
-                overflow-y: scroll;
+
             }
-            
+
             .autocomplete-items {
                 position: absolute;
                 border: 1px solid rgb(191, 191, 191);
@@ -115,6 +114,11 @@
             .decisionIncInputField:focus:not(.decisionIncInputField-designTime):not(.decisionIncInputFieldDisabled):not(.decisionIncInputFieldUneditable) {
                 outline: 1px dotted #000;
                 outline-offset: -3px;
+            }
+
+            .decisionIncInputField:focus:not(.decisionIncInputField-designTime):not(.decisionIncInputFieldDisabled):not(.decisionIncInputFieldUneditable) > .decisionIncComponentWidgetPanel{
+                overflow-x: hidden;
+                overflow-y: scroll;
             }
 
             .decisionIncInputField::-ms-clear {
