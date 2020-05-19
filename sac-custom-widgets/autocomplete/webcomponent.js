@@ -133,6 +133,7 @@
             .decisionIncComponentWidgetPanel:focus-within {
                 overflow-x: hidden;
                 overflow-y: scroll;
+                background-color: white;
             }
             
             * {
