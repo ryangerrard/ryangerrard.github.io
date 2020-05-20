@@ -126,7 +126,7 @@
                 box-sizing: border-box;
             }
 
-            .xxdecisionIncComponentWidgetPanel:focus-within {
+            .decisionIncComponentWidgetPanel:focus-within {
                 overflow-x: hidden;
                 overflow-y: scroll;
                 background-color: white;
