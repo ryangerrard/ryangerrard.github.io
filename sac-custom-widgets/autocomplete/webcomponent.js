@@ -126,7 +126,7 @@
                 box-sizing: border-box;
             }
 
-            .decisionIncComponentWidgetPanel:focus-within {
+            .xxdecisionIncComponentWidgetPanel:focus-within {
                 overflow-x: hidden;
                 overflow-y: scroll;
                 background-color: white;
@@ -362,7 +362,6 @@
 
         //When the custom widget is updated, the Custom Widget SDK framework executes this function first
         onCustomWidgetBeforeUpdate(oChangedProperties) {
-
         }
 
         //When the custom widget is updated, the Custom Widget SDK framework executes this function after the update
