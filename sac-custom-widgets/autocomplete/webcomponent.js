@@ -126,9 +126,9 @@
                 box-sizing: border-box;
             }
 
-            .tempdecisionIncComponentWidgetPanel:focus-within {
+            .decisionIncComponentWidgetPanel:focus-within {
                 overflow-x: hidden;
-                overflow-y: scroll;
+                overflow-y: hidden;
                 background-color: white;
                 outline: 1px dotted #000;
                 outline-offset: -3px;
