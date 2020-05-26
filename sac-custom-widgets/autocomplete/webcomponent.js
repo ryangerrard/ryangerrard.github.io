@@ -154,7 +154,6 @@
 
             input[type=text] {
                 background-color: rgb(255, 255, 255);
-                ;
                 width: 100%;
             }
 
